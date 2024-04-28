@@ -1,0 +1,94 @@
+﻿  Building 'DBKKernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping ARM\Debug\DBK32.inf
+  Stamping [Version] section with DriverVer=07/01/2023,3.22.2.551
+  Stamping ARM\Debug\DBK64.inf
+  Stamping [Version] section with DriverVer=07/01/2023,3.22.2.574
+D:\GithubProjects\cheat-engine-new\DBKKernel\DBK32.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1.
+  dbkfunca.asm
+  debuggera.asm
+  noexceptionsa.asm
+  ultimapa.asm
+  vmxhelpera.asm
+  vmxoffloada.asm
+  noexceptionsa.asm
+  segmentinfo.asm
+  dbkfunca.asm
+  debuggera.asm
+  noexceptionsa.asm
+  ultimapa.asm
+  vmxhelpera.asm
+  vmxoffloada.asm
+  noexceptionsa.asm
+  segmentinfo.asm
+  Assembling [Inputs]...
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(8): error A2034: unknown opcode: SEGMENT
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(9): error A2034: unknown opcode: getCS
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(12): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(14): error A2034: unknown opcode: getSS
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(17): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(19): error A2034: unknown opcode: getDS
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(22): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(24): error A2034: unknown opcode: getES
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(27): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(29): error A2034: unknown opcode: getFS
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(32): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(34): error A2034: unknown opcode: getGS
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(37): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(39): error A2034: unknown opcode: GetTR
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(42): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(44): error A2034: unknown opcode: GetLDT
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(46): error A2034: unknown opcode: SLDT
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(47): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(49): error A2034: unknown opcode: GetGDT
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(51): error A2034: unknown opcode: SGDT
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(52): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(54): error A2034: unknown opcode: _fxsave
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(56): error A2034: unknown opcode: fxsave
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(57): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(59): error A2034: unknown opcode: getRSP
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(63): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(65): error A2034: unknown opcode: getRBP
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(69): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(71): error A2034: unknown opcode: getRAX
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(73): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(75): error A2034: unknown opcode: getRBX
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(78): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(80): error A2034: unknown opcode: getRCX
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(83): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(85): error A2034: unknown opcode: getRDX
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(88): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(90): error A2034: unknown opcode: getRSI
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(93): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(95): error A2034: unknown opcode: getRDI
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(98): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(100): error A2034: unknown opcode: getR8
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(103): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(105): error A2034: unknown opcode: getR9
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(108): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(110): error A2034: unknown opcode: getR10
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(113): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(115): error A2034: unknown opcode: getR11
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(118): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(120): error A2034: unknown opcode: getR12
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(123): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(125): error A2034: unknown opcode: getR13
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(128): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(130): error A2034: unknown opcode: getR14
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(133): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(135): error A2034: unknown opcode: getR15
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(138): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(140): error A2034: unknown opcode: getAccessRights
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(142): error A2034: unknown opcode: xor
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(143): error A2034: unknown opcode: lar
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(144): error A2034: unknown opcode: jnz
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(145): error A2034: unknown opcode: shr
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(146): error A2173: syntax error in expression
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(147): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(148): error A2034: unknown opcode: getAccessRights_invalid
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(149): error A2173: syntax error in expression
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(150): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(153): error A2034: unknown opcode: getSegmentLimit
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(155): error A2034: unknown opcode: xor
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(157): error A2034: unknown opcode: ret
+D:\GithubProjects\cheat-engine-new\DBKKernel\amd64\dbkfunca.asm(159): error A2034: unknown opcode: ENDS
+C:\Program Files (x86)\Windows Kits\10\build\windowsdriver.Masm.targets(49,5): error MSB3721: The command ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\arm\armasm.exe" -coff_thumb2_only -o ARM\Debug\dbkfunca.obj ARM\Debug\dbkfunca.i" exited with code 1.
